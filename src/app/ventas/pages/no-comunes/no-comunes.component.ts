@@ -52,5 +52,22 @@ export class NoComunesComponent {
       direccion: 'Santiago, Chile'
     }
 
+    //Json Pipe
+
+    heroes = [
+      {
+        nombre: 'Superman',
+        vuela: true, 
+      },
+      {
+        nombre: 'Robin',
+        vuela: false, 
+      },
+      {
+        nombre: 'Robin',
+        vuela: false, 
+      }
+    ]
+
 
 }
