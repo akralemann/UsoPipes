@@ -15,7 +15,7 @@
                 a nuestro evento
             </p>
             
-            <button 
+            <button type="button" (click)="cambiarCliente()"
                 pButton 
                 label="Cambiar Persona"
                 class="p-button-success"
@@ -31,7 +31,7 @@
                 Actualmente {{ clientes.length | i18nPlural:clientesMapa }} 
             </p>
 
-            <button 
+            <button type="button" (click)="borrarCliente()"
                 pButton 
                 label="Borrar clientes"
                 class="p-button-success"

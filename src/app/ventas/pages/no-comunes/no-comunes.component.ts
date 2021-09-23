@@ -24,4 +24,23 @@ export class NoComunesComponent {
       '=1': 'tenemos a un cliente esperando.',
       'other': 'tenemos a # clientes esperando.',
     }
+
+
+    cambiarCliente(){
+
+      if (this.nombre === "Alan"){
+
+        this.nombre = "Paola";
+        this.genero = "femenino";
+
+      } else {
+        this.nombre = "Alan";
+        this.genero = "masculino";
+      }
+    }
+
+    borrarCliente(){
+      this.clientes.pop();
+    }
+
 }
