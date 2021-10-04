@@ -20,7 +20,7 @@ const routes: Routes = [
     component: NoComunesComponent
   },
   {
-    path: 'ordernar',
+    path: 'ordenar',
     component: OrdenarComponent
   },
   {
@@ -30,7 +30,6 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [],
   imports: [
     RouterModule.forRoot( routes )
   ],
